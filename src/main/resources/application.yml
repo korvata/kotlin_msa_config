@@ -8,4 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: file:///c/Users/yjh/Documents/github/kotlin_msa_config
+          uri: https://github.com/korvata/kotlin_msa_config
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
